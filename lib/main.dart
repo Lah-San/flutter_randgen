@@ -107,8 +107,6 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-// ...
-
 class FavoritesPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -122,15 +120,24 @@ class FavoritesPage extends StatelessWidget {
 
     return ListView(
       children: [
-        Padding(
-          padding: const EdgeInsets.all(20),
-          child: Text('You have '
-              '${appState.favorites.length} favorites:'),
-        ),
         for (var pair in appState.favorites)
-          ListTile(
-            leading: Icon(Icons.favorite),
-            title: Text(pair.asLowerCase),
+          Dismissible(
+            key: ValueKey(pair),
+            onDismissed: (direction) {
+              appState.favorites.remove(pair);
+              appState.notifyListeners();
+            },
+            child: ListTile(
+              leading: Icon(Icons.favorite, ),
+              title: Text(pair.asLowerCase),
+              trailing: IconButton(
+                icon: Icon(Icons.delete_outlined, color: Colors.red),
+                onPressed: () {
+                  appState.favorites.remove(pair);
+                  appState.notifyListeners();
+                },
+              ),
+            ),
           ),
       ],
     );

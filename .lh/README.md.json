@@ -1,0 +1,22 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1737207859633,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737207900067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,11 @@\n \r\n First Flutter project. \r\n Generates random numbers\r\n \r\n+Improvements:\r\n+Delete button - Can delete favorites from the favorites page\r\n+\r\n ## Getting Started\r\n \r\n This project is a starting point for a Flutter application.\r\n \r\n"
+                }
+            ],
+            "date": 1737207859633,
+            "name": "Commit-0",
+            "content": "# flutter_application_1\r\n\r\nFirst Flutter project. \r\nGenerates random numbers\r\n\r\n## Getting Started\r\n\r\nThis project is a starting point for a Flutter application.\r\n\r\nA few resources to get you started if this is your first Flutter project:\r\n\r\n- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)\r\n- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)\r\n\r\nFor help getting started with Flutter development, view the\r\n[online documentation](https://docs.flutter.dev/), which offers tutorials,\r\nsamples, guidance on mobile development, and a full API reference.\r\n"
+        }
+    ]
+}

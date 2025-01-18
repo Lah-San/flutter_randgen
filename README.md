@@ -1,6 +1,10 @@
 # flutter_application_1
 
-A new Flutter project.
+First Flutter project. 
+Generates random numbers
+
+Improvements:
+Delete button - Can delete favorites from the favorites page
 
 ## Getting Started
 
