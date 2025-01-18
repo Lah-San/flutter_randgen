@@ -1,0 +1,18 @@
+{
+    "sourceFile": "analysis_options.yaml",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1737126298456,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1737126298456,
+            "name": "Commit-0",
+            "content": "include: package:flutter_lints/flutter.yaml\r\n\r\nlinter:\r\n  rules:\r\n    avoid_print: false\r\n    prefer_const_constructors_in_immutables: false\r\n    prefer_const_constructors: false\r\n    prefer_const_literals_to_create_immutables: false\r\n    prefer_final_fields: false\r\n    unnecessary_breaks: true\r\n    use_key_in_widget_constructors: false"
+        }
+    ]
+}
